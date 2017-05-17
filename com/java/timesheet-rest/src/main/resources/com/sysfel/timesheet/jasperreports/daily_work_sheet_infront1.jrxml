@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.3.1.final using JasperReports Library version 6.3.1  -->
+<!-- 2017-04-18T22:15:22 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="daily_work_sheet_infront1" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="890779e5-817c-4e7c-bb1d-8152be838bbf">
+	<style name="Table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+			<topPen lineWidth="0.5" lineColor="#000000"/>
+			<leftPen lineWidth="0.5" lineColor="#000000"/>
+			<bottomPen lineWidth="0.5" lineColor="#000000"/>
+			<rightPen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="Table 1_TH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#030000"/>
+			<topPen lineWidth="0.5" lineColor="#030000"/>
+			<leftPen lineWidth="0.5" lineColor="#030000"/>
+			<bottomPen lineWidth="0.5" lineColor="#030000"/>
+			<rightPen lineWidth="0.5" lineColor="#030000"/>
+		</box>
+	</style>
+	<style name="Table 1_CH" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#030000"/>
+			<topPen lineWidth="0.5" lineColor="#030000"/>
+			<leftPen lineWidth="0.5" lineColor="#030000"/>
+			<bottomPen lineWidth="0.5" lineColor="#030000"/>
+			<rightPen lineWidth="0.5" lineColor="#030000"/>
+		</box>
+	</style>
+	<style name="Table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#030000"/>
+			<topPen lineWidth="0.5" lineColor="#030000"/>
+			<leftPen lineWidth="0.5" lineColor="#030000"/>
+			<bottomPen lineWidth="0.5" lineColor="#030000"/>
+			<rightPen lineWidth="0.5" lineColor="#030000"/>
+		</box>
+	</style>
+	<subDataset name="LaborerDataset" uuid="2a462270-30c8-4cbe-842b-177c037f051f">
+		<queryString>
+			<![CDATA[]]>
+		</queryString>
+		<field name="name" class="java.lang.String">
+			<fieldDescription><![CDATA[]]></fieldDescription>
+		</field>
+	</subDataset>
+	<parameter name="LaborerDataSource" class="net.sf.jasperreports.engine.data.JRBeanCollectionDataSource"/>
+	<queryString>
+		<![CDATA[]]>
+	</queryString>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="139" splitType="Stretch">
+			<image>
+				<reportElement x="0" y="0" width="150" height="80" uuid="e1523e37-e109-4a8e-abdc-b327a9497631"/>
+				<imageExpression><![CDATA["https://www.infrontstaffing.com/wp-content/uploads/2016/10/Infront_Logo_Tag-228x160.jpg"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="151" y="21" width="652" height="40" uuid="157f54a2-6e6e-4072-b7f0-cf625847c1c0"/>
+				<box>
+					<topPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<bottomPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="1.0" lineStyle="Solid" lineColor="#000000"/>
+				</box>
+				<textElement verticalAlignment="Justified">
+					<font fontName="Al Bayan" size="24"/>
+				</textElement>
+				<text><![CDATA[ Daily Work Sheet1]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="100" width="70" height="20" uuid="51bc54eb-9f3f-47da-ac9d-49cb127083a6"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Al Bayan" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Customer:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="71" y="120" width="274" height="1" uuid="44b7bca6-59ce-4f63-a00d-eb4aba4cfa3b"/>
+			</line>
+			<staticText>
+				<reportElement x="345" y="100" width="60" height="20" uuid="58a3ddeb-3058-461a-9453-4753b54e0794"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Al Bayan" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Location:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="408" y="120" width="210" height="1" uuid="5cc7be85-7cae-4ab8-807b-12f52660b661"/>
+			</line>
+			<staticText>
+				<reportElement x="620" y="100" width="30" height="20" uuid="4d8e5374-20e9-4ecb-9ae0-87d711026323"/>
+				<textElement verticalAlignment="Bottom">
+					<font fontName="Al Bayan" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Day:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="649" y="120" width="151" height="1" uuid="28e4c507-d4eb-4a62-bd29-acd931d14f45"/>
+			</line>
+		</band>
+	</title>
+	<detail>
+		<band height="400" splitType="Stretch">
+			<componentElement>
+				<reportElement x="9" y="200" width="200" height="200" uuid="e2da858e-7b05-4029-a019-06b7377b5fcd">
+					<property name="com.jaspersoft.studio.layout" value="com.jaspersoft.studio.editor.layout.VerticalRowLayout"/>
+					<property name="com.jaspersoft.studio.table.style.table_header" value="Table_TH"/>
+					<property name="com.jaspersoft.studio.table.style.column_header" value="Table_CH"/>
+					<property name="com.jaspersoft.studio.table.style.detail" value="Table_TD"/>
+				</reportElement>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="LaborerDataset" uuid="a5c795d9-fcf7-4eba-9572-8ad233f6a07e">
+						<dataSourceExpression><![CDATA[$P{LaborerDataSource}]]></dataSourceExpression>
+					</datasetRun>
+					<jr:column width="40" uuid="3cbe5f53-ceb1-443a-88d9-b3f372e0ea70">
+						<property name="com.jaspersoft.studio.components.table.model.column.name" value="Column1"/>
+						<jr:tableHeader style="Table_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement x="0" y="0" width="40" height="30" uuid="dc2b33fd-436e-45b6-8cbc-8fdb3950d987"/>
+								<text><![CDATA[Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="Table_TD" height="30">
+							<textField>
+								<reportElement x="0" y="0" width="40" height="30" uuid="41e9b73c-a352-4fd3-a76e-b035db046be3"/>
+								<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+</jasperReport>
